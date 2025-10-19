@@ -15,8 +15,8 @@ jobs:
             run: cowsay -f dragon " Run for cover, I am a DRAGON...RYUY" >> dragon1.txt     
  
           - name: Test File Exists
-            run: grep -i "dragon"dragon.txt
+            run: grep -i "dragon"dragon1.txt
           - name: Read File
-            run: cat dragon.txt
+            run: cat dragon1.txt
           - name: List Repo Files
             run: ls -ltra
